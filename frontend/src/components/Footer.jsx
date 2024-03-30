@@ -6,6 +6,7 @@ export default function Footer() {
             
 
             <div className="text-center pt-1">
+                <span style={{color: 'white', fontSize: '16px'}}>Know more about Developer -</span>
                 <a href="https://www.linkedin.com/in/siddarth-sangavi-526232204/" target="_blank" rel="noreferrer">
                     <i className="bi bi-linkedin mx-2" style={{fontSize : "20px"}}></i>
                 </a>
