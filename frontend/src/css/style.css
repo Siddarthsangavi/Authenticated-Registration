@@ -1,0 +1,67 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url('https://i.ytimg.com/vi/zTK9DhM6OQc/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Semi-transparent border */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow */
+    width: 40%;
+    max-width: 400px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background for input fields */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.login-box input[type="email"]::placeholder,
+.login-box input[type="password"]::placeholder {
+    color: #fff;
+}
+
+.login-box .btn {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.container.my-2 {
+    color: #fff;
+}
+
+.custom-text-color {
+    color: #fff; /* White color */
+}
+
+.logout-btn {
+    padding: 0.5rem 1rem;
+    background-color: #007bff; /* Blue color for example */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+  }
+  
+  .logout-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
