@@ -59,3 +59,4 @@ This project uses the following technologies:
 <br/>
 
 <h2> Do not forget to give a star! ⭐🤗 </h2>
+# Authenticated-Registration
